@@ -1,0 +1,3 @@
+C:/Users/Dominus/CLionProjects/ProjectM/cmake-build-debug/CMakeFiles/ProjectM.dir
+C:/Users/Dominus/CLionProjects/ProjectM/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Dominus/CLionProjects/ProjectM/cmake-build-debug/CMakeFiles/rebuild_cache.dir
