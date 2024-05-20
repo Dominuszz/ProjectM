@@ -440,3 +440,43 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/ninja.exe cmTC_e0585 && [1/2] Building C object CMakeFiles/cmTC_e0585.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e0585.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/ninja.exe cmTC_d2048 && [1/2] Building C object CMakeFiles/cmTC_d2048.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_d2048.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/ninja.exe cmTC_852a9 && [1/2] Building C object CMakeFiles/cmTC_852a9.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_852a9.exe
+
+
+
+Determining size of void* passed with the following output:
+Change Dir: C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/ninja.exe cmTC_375c8 && [1/2] Building C object CMakeFiles/cmTC_375c8.dir/SIZEOF_VOID_PTR.c.obj
+[2/2] Linking C executable cmTC_375c8.exe
+
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/ninja.exe cmTC_2d7e3 && [1/2] Building C object CMakeFiles/cmTC_2d7e3.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_2d7e3.exe
+
+
+

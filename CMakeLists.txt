@@ -2,19 +2,26 @@ cmake_minimum_required(VERSION 3.23)
 set(project "porject2121")
 project(${project})
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_EXE_LINKER_FLAGS "-static -static-libgcc")
-set(SFML_STATIC_LIBRARIES TRUE)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
+
+include(FetchContent)
+FetchContent_Declare(SFML
+        GIT_REPOSITORY https://github.com/SFML/SFML.git
+        GIT_TAG 2.5.x)
+FetchContent_MakeAvailable(SFML)
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/player.png
-        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+        ${CMAKE_BINARY_DIR}/bin COPYONLY)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/background.png
-        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+        ${CMAKE_BINARY_DIR}/bin COPYONLY)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/border.png
-        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+        ${CMAKE_BINARY_DIR}/bin COPYONLY)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/eye_flight.png
-        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+        ${CMAKE_BINARY_DIR}/bin COPYONLY)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/bullet.png
-        ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+        ${CMAKE_BINARY_DIR}/bin COPYONLY)
 
 add_executable(${project}
         main.cpp
@@ -51,9 +58,17 @@ add_executable(${project}
         Game/Weapon/Weapon.h
         )
 target_include_directories(${project} PRIVATE Game)
-set(SFML_DIR "C:\\Users\\Dominus\\CLionProjects\\porject2121\\SFML\\lib\\cmake\\SFML")
-target_link_libraries(${project} sfml-graphics sfml-window)
+target_link_libraries(${project} PRIVATE sfml-graphics)
+target_link_libraries(${project} PRIVATE sfml-audio)
+target_link_libraries(${project} PRIVATE sfml-window)
 
+if(WIN32)
+    add_custom_command(
+            TARGET ${project}
+            COMMENT "Copy OpenAL DLL"
+            PRE_BUILD COMMAND ${CMAKE_COMMAND} -E copy ${SFML_SOURCE_DIR}/extlibs/bin/$<IF:$<EQUAL:${CMAKE_SIZEOF_VOID_P},8>,x64,x86>/openal32.dll $<TARGET_FILE_DIR:${project}>
+            VERBATIM)
+endif()
 
-set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
-find_package(SFML 2.5 REQUIRED graphics network audio window system)
+install(TARGETS ${project})
+
