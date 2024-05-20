@@ -1,3 +1,0 @@
-C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
-C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
-C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir
