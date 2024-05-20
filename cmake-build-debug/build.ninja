@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: ProjectM
+# Project: porject2121
 # Configurations: Debug
 # =============================================================================
 
@@ -39,46 +39,161 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Dominus/CLionProjects/ProjectM/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ProjectM
+# Object build statements for EXECUTABLE target porject2121
 
 
 #############################################
-# Order-only phony target for ProjectM
+# Order-only phony target for porject2121
 
-build cmake_object_order_depends_target_ProjectM: phony || CMakeFiles/ProjectM.dir
+build cmake_object_order_depends_target_porject2121: phony || CMakeFiles/porject2121.dir
 
-build CMakeFiles/ProjectM.dir/main.cpp.obj: CXX_COMPILER__ProjectM_Debug C$:/Users/Dominus/CLionProjects/ProjectM/main.cpp || cmake_object_order_depends_target_ProjectM
-  DEP_FILE = CMakeFiles\ProjectM.dir\main.cpp.obj.d
+build CMakeFiles/porject2121.dir/main.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/main.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\ProjectM.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProjectM.dir
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir
+
+build CMakeFiles/porject2121.dir/Game/Sources/Bullet.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/Bullet.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\Bullet.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/Character.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/Character.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\Character.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/EnemiesManager.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/EnemiesManager.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\EnemiesManager.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/Enemy.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/Enemy.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\Enemy.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/GameObject.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/GameObject.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\GameObject.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/HealthBar.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/HealthBar.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\HealthBar.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/Player.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/Player.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\Player.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/PlayerController.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/PlayerController.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\PlayerController.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/RangedWeapon.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/RangedWeapon.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\RangedWeapon.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/Textures.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/Textures.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\Textures.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/Timer.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/Timer.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\Timer.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/ViewController.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/ViewController.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\ViewController.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/Weapon.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/Weapon.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\Weapon.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
+
+build CMakeFiles/porject2121.dir/Game/Sources/World.cpp.obj: CXX_COMPILER__porject2121_Debug C$:/Users/Dominus/CLionProjects/porject2121/Game/Sources/World.cpp || cmake_object_order_depends_target_porject2121
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\porject2121.dir\Game\Sources\World.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/Dominus/CLionProjects/porject2121/Game -isystem C:/Users/Dominus/CLionProjects/porject2121/SFML/include
+  OBJECT_DIR = CMakeFiles\porject2121.dir
+  OBJECT_FILE_DIR = CMakeFiles\porject2121.dir\Game\Sources
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ProjectM
+# Link build statements for EXECUTABLE target porject2121
 
 
 #############################################
-# Link the executable ProjectM.exe
+# Link the executable porject2121.exe
 
-build ProjectM.exe: CXX_EXECUTABLE_LINKER__ProjectM_Debug CMakeFiles/ProjectM.dir/main.cpp.obj
+build porject2121.exe: CXX_EXECUTABLE_LINKER__porject2121_Debug CMakeFiles/porject2121.dir/main.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/Bullet.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/Character.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/EnemiesManager.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/Enemy.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/GameObject.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/HealthBar.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/Player.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/PlayerController.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/RangedWeapon.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/Textures.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/Timer.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/ViewController.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/Weapon.cpp.obj CMakeFiles/porject2121.dir/Game/Sources/World.cpp.obj | ../SFML/lib/libsfml-graphics-s-d.a ../SFML/lib/libsfml-window-s-d.a ../SFML/lib/libsfml-system-s-d.a ../SFML/lib/libfreetype.a
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ProjectM.dir
+  LINK_FLAGS = -static -static-libgcc
+  LINK_LIBRARIES = ../SFML/lib/libsfml-graphics-s-d.a  ../SFML/lib/libsfml-window-s-d.a  ../SFML/lib/libsfml-system-s-d.a  -lOpenGL32  -lwinmm  -lgdi32  ../SFML/lib/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\porject2121.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ProjectM.exe
-  TARGET_IMPLIB = libProjectM.dll.a
-  TARGET_PDB = ProjectM.exe.dbg
+  TARGET_FILE = porject2121.exe
+  TARGET_IMPLIB = libporject2121.dll.a
+  TARGET_PDB = porject2121.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Dominus\CLionProjects\ProjectM\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Dominus\CLionProjects\porject2121\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +204,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Dominus\CLionProjects\ProjectM\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Dominus\CLionProjects\ProjectM -BC:\Users\Dominus\CLionProjects\ProjectM\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Dominus\CLionProjects\porject2121\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Dominus\CLionProjects\porject2121 -BC:\Users\Dominus\CLionProjects\porject2121\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,7 +214,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ProjectM: phony ProjectM.exe
+build porject2121: phony porject2121.exe
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +222,9 @@ build ProjectM: phony ProjectM.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Dominus/CLionProjects/ProjectM/cmake-build-debug
+# Folder: C:/Users/Dominus/CLionProjects/porject2121/cmake-build-debug
 
-build all: phony ProjectM.exe
+build all: phony porject2121.exe
 
 # =============================================================================
 # Built-in targets
@@ -118,14 +233,14 @@ build all: phony ProjectM.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../SFML/lib/cmake/SFML/SFMLConfig.cmake ../SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake ../SFML/lib/cmake/SFML/SFMLConfigVersion.cmake ../SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake ../SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake ../SFML/lib/cmake/SFML/SFMLStaticTargets.cmake ../background.png ../border.png ../bullet.png ../eye_flight.png ../player.png C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../SFML/lib/cmake/SFML/SFMLConfig.cmake ../SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake ../SFML/lib/cmake/SFML/SFMLConfigVersion.cmake ../SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake ../SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake ../SFML/lib/cmake/SFML/SFMLStaticTargets.cmake ../background.png ../border.png ../bullet.png ../eye_flight.png ../player.png C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

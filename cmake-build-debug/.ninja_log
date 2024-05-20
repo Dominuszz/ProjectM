@@ -1,3 +1,23 @@
 # ninja log v5
-0	401	7329969817478909	CMakeFiles/ProjectM.dir/main.cpp.obj	410c78e1e8837a1b
 403	559	7329969819088925	ProjectM.exe	f7167a2e0fc086a5
+27	1448	7379380276403568	CMakeFiles/porject2121.dir/Game/Sources/GameObject.cpp.obj	a7554193a4102949
+51	1471	7379380276603623	CMakeFiles/porject2121.dir/Game/Sources/HealthBar.cpp.obj	9ee0057be0225090
+76	1535	7379380277293787	CMakeFiles/porject2121.dir/Game/Sources/PlayerController.cpp.obj	de0f81c12ff35709
+35	1583	7379380277743876	CMakeFiles/porject2121.dir/Game/Sources/Character.cpp.obj	4b1405c487123380
+8	1625	7379380278203989	CMakeFiles/porject2121.dir/Game/Sources/Bullet.cpp.obj	5ffb473cfedb1d52
+15	1858	7379380280524507	CMakeFiles/porject2121.dir/Game/Sources/Enemy.cpp.obj	700d43b8612a5154
+1452	2101	7379380282975055	CMakeFiles/porject2121.dir/Game/Sources/Timer.cpp.obj	a21911fb0a0c6aa0
+66	2217	7379380284075307	CMakeFiles/porject2121.dir/Game/Sources/Player.cpp.obj	f5b52d2d2b66d9d1
+1	2256	7379380284535403	CMakeFiles/porject2121.dir/main.cpp.obj	58464511fe46f7d
+20	2355	7379380285485635	CMakeFiles/porject2121.dir/Game/Sources/EnemiesManager.cpp.obj	87d2c042ac1b9fc4
+1472	2448	7379380286455843	CMakeFiles/porject2121.dir/Game/Sources/Textures.cpp.obj	fc8a0828eb3c7085
+1625	2671	7379380288696345	CMakeFiles/porject2121.dir/Game/Sources/World.cpp.obj	1388c9af2504462c
+1583	2679	7379380288756361	CMakeFiles/porject2121.dir/Game/Sources/Weapon.cpp.obj	babaa74234bb5b23
+1859	2840	7379380290386726	CMakeFiles/porject2121.dir/Game/Sources/ViewController.cpp.obj	d40d9de18c0cef81
+1535	2907	7379380291036874	CMakeFiles/porject2121.dir/Game/Sources/RangedWeapon.cpp.obj	d28f87eefd023f90
+2907	4191	7379380303889777	porject2121.exe	65e3d750143ee307
+10	972	7379381093252123	CMakeFiles/porject2121.dir/Game/Sources/Bullet.cpp.obj	5ffb473cfedb1d52
+24	1149	7379381095012523	CMakeFiles/porject2121.dir/Game/Sources/Enemy.cpp.obj	700d43b8612a5154
+30	1280	7379381096332821	CMakeFiles/porject2121.dir/Game/Sources/RangedWeapon.cpp.obj	d28f87eefd023f90
+18	1439	7379381097923180	CMakeFiles/porject2121.dir/main.cpp.obj	58464511fe46f7d
+1439	2633	7379381109855872	porject2121.exe	65e3d750143ee307
